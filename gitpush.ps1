@@ -14,3 +14,7 @@ git add .
 git commit -m "$FileName"
 git push origin main
 
+cd C:\custom-commands
+git add .
+git commit -m "$FileName"
+git push origin main
