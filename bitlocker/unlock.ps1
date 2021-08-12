@@ -1,0 +1,1 @@
+sudo manage-bde -unlock A: -Password
