@@ -18,3 +18,8 @@ cd C:\custom-commands
 git add .
 git commit -m "$FileName"
 git push origin main
+
+cd B:\study-academics
+git add .
+git commit -m "$FileName"
+git push origin main
