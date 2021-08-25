@@ -1,1 +1,1 @@
-sudo manage-bde -unlock A: -Password
+sudo manage-bde -unlock A: -Password  # A - Drive Letter
