@@ -1,25 +1,10 @@
 $FileName = (Get-Date).tostring("dd-MM-yyyy hh:mm:ss")  
-cd B:\Development\neo\neog
+cd "Path to git repo"
 git add .
-git commit -m "$FileName"
+git commit -m "$FileName"     #makes a commit with commit message as current date and time
 git push origin main
 
-cd B:\Development\ByteXL_c-language
-git add .
-git commit -m "$FileName"
-git push origin main
-
-cd B:\Development\java-intellij
-git add .
-git commit -m "$FileName"
-git push origin main
-
-cd C:\custom-commands
-git add .
-git commit -m "$FileName"
-git push origin main
-
-cd B:\study-academics
+cd "Path to git repo1.."
 git add .
 git commit -m "$FileName"
 git push origin main
