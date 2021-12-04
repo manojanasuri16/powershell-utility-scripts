@@ -1,0 +1,1 @@
+sudo ./ec2-instance.ps1

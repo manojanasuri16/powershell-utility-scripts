@@ -1,3 +1,4 @@
+#To push files to remote with commit name as the commit date and time.
 $FileName = (Get-Date).tostring("dd-MM-yyyy hh:mm:ss")  
 cd "Path to git repo"
 git add .
