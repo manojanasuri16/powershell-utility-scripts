@@ -1,0 +1,19 @@
+youtube-dl:
+install yt-dlp using below pip command: [only below version is error free, latest version has bugs]
+pip install --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
+
+powershell function alias to download best quality youtube videos:
+function yt { yt-dlp -f "bestvideo[height<=2160][ext=mp4]+bestaudio[ext=m4a]/mp4" $args }
+
+In above function bestvideo height <= 2160p, that is because above 2160p is 8k, which most hardware fails to load
+
+To add above function to your PowerShell profile, follow these steps:
+1. Open PowerShell as Administrator
+2. Run the command "notepad $PROFILE. 
+   This will open your PowerShell profile file in Notepad.
+3. Add the above line to the end of the file and save it.
+   Close and reopen PowerShell for the changes to take effect.
+
+Now you can use the yt alias to download YouTube videos with the following command:  
+    yt url
+        where url is the URL of the video you want to download.
